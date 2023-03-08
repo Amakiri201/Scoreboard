@@ -1,0 +1,164 @@
+body {
+     background-image: conic-gradient(
+    at 100% 80%,
+    #b78cf7,
+    #ffcf0d,
+    #ff7c94,
+    #b78cf7
+    );
+}
+
+
+.btn-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    width: 155px;
+    margin: auto; 
+}
+
+.btn-holderD {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    width: 155px;
+    margin: auto; 
+}
+
+.btn {
+    width:45px;
+    height: 45px;
+    left: 82px;
+    border: 1px solid hsl(320, 40%, 40%);
+    background-color: hsl(349 100% 95%);
+    color: hsl(320, 40%, 40%);
+    font-family: CursedTimerUlil-Aznm;
+    font-weight: bold;
+    width: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btnD {
+    margin-top:10px ;
+    width:45px;
+    height: 45px;
+    left: 82px;
+    border: 1px solid hsl(320, 40%, 40%);
+    background-color: hsl(349 100% 95%);
+    color: hsl(320, 40%, 40%);
+    font-family: CursedTimerUlil-Aznm;
+    font-weight: bold;
+    width: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn:hover {
+    width:45px;
+    height: 45px;
+    left: 82px;
+    border: 1px solid hsl(320, 40%, 40%);
+    background:whitesmoke;
+    color: hsl(320, 40%, 40%);
+    font-family: CursedTimerUlil-Aznm;
+    font-weight: bold;
+    width: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btnD:hover {
+    width:45px;
+    height: 45px;
+    left: 82px;
+    border: 1px solid hsl(320, 40%, 40%);
+    background: whitesmoke;
+    color: hsl(320, 40%, 40%);
+    font-family: CursedTimerUlil-Aznm;
+    font-weight: bold;
+    width: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: hsl(320, 40%, 40%);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+.reset-holder{
+    padding-top: 150px;
+}
+
+
+.reset{
+    width:45px;
+    height: 45px;
+    border: 1px solid hsl(320, 40%, 40%);
+    background-color: hsl(349 100% 95%);
+    color: hsl(320, 40%, 40%);
+    font-family: CursedTimerUlil-Aznm;
+    width: 70px;
+    border-radius: 5px;
+    text-align: center;
+}
+.reset:hover{
+    width:45px;
+    height: 45px;
+    border: 1px solid hsl(320, 40%, 40%);
+    background:whitesmoke;
+    color: hsl(320, 40%, 40%);
+    font-family: CursedTimerUlil-Aznm;
+    width: 70px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+p {
+    font-family: 'CursedTimerUlil-Aznm';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 127px;
+    text-align: center;
+    color: hsl(320, 40%, 40%);
+}
+
+.counter {
+    height: 120px;
+    border-radius: 5px;
+    width: 155px;
+    background: black;
+    margin: 30px auto 30px auto ;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: CursedTimerUlil-Aznm;
+}
+
+#box {
+    border: 3px solid hsl(320, 40%, 40%);
+    max-width: 800px;
+    border-radius: 10px;
+    margin: auto;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    background-color: hsl(349 100% 95%);
+    margin-top: 10% ;
+}
+
